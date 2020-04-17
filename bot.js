@@ -387,7 +387,7 @@ if (message.content === '$spam') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
-        message.channel.send(`** WELCOME TO DIGITAL FAMILY**[ " ${x} " ]`)
+        message.channel.send(`** HELLO MAMA HELLO PAPA **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
