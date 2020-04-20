@@ -1,5 +1,5 @@
 const Discord = require("discord.js");
-const myid = ['462400706779807744']
+const myid = ['Your ID']
 const client = new Discord.Client();
 const client2 = new Discord.Client();
 const client3 = new Discord.Client();
@@ -369,7 +369,7 @@ message.channel.send('#credits')
 
 
 client.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === '1') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
@@ -383,7 +383,7 @@ if (message.content === '$spam') {
 });
 
 client2.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === '2') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
@@ -397,7 +397,7 @@ if (message.content === '$spam') {
 });
 
 client3.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === '3') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
@@ -411,7 +411,7 @@ if (message.content === '$spam') {
 });
 
 client4.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === '4') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
@@ -425,7 +425,7 @@ if (message.content === '$spam') {
 });
 
 client5.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === '5') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
@@ -439,7 +439,7 @@ if (message.content === '$spam') {
 });
 
 client6.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === '6') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
@@ -453,7 +453,7 @@ if (message.content === '$spam') {
 });
 
 client7.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === '7') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
@@ -467,10 +467,10 @@ if (message.content === '$spam') {
 });
 
 client8.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === '8') {
       let count = 0;
       let ecount = 0;
-      for(let x = 5000; x < 9000; x++) {
+      for(let x = 0; x < 9000; x++) {
         message.channel.send(`**??? ???? ??? ?? ??? **[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -481,7 +481,7 @@ if (message.content === '$spam') {
 });
 
 client9.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === '9') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
@@ -495,7 +495,7 @@ if (message.content === '$spam') {
 });
 
 client10.on('message', message => {
-if (message.content === '$spam') {
+if (message.content === '10') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 9000; x++) {
